@@ -15,7 +15,7 @@ router.get("/:id_produto", (req, res, next) => {
     if (id === 'especial') {
         res.status(200).send({
             id: id,
-            jeba: "Isso é uma grande rola especial"
+            jeba: "Isso é uma rola colossal especial"
         })
     } else {
         res.status(200).send({
